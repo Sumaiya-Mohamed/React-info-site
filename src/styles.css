@@ -1,0 +1,53 @@
+:root {
+    --color-light-blue: #61DAFB;
+    --color-medium-blue: #21222A;
+    --color-heavy-blue: #282D35;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-heavy-blue);
+}
+
+.header__container{
+    display: flex;
+    box-shadow: 3px 3px 5px ;
+    background-color: var(--color-medium-blue);
+}
+
+.header__container > img{
+ margin-left: 10px;
+ width: 58px;
+}
+
+.header__container > h1{
+ margin-left: 15px;
+ color: var(--color-light-blue);
+}
+
+.body__container{
+    margin-left: 18px;
+    color: whitesmoke;
+   
+}
+
+.body__container > h1{
+    margin-top: 55px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body__container > ul > li{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px; /*Allows the li to be further apart.*/
+}
+
+.body__container > ul > li::marker{
+    font-size: 25px;
+    color: var(--color-light-blue);
+}
+
